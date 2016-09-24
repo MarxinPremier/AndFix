@@ -15,10 +15,6 @@ import java.io.IOException;
 
 public class MyApplication extends Application {
 
-
-
-
-
     private PatchManager mPatchManager;
 
     public PatchManager getmPatchManager() {
@@ -44,7 +40,6 @@ public class MyApplication extends Application {
     private void initPatch() {
         mPatchManager = new PatchManager(this);
         mPatchManager.init("1.0");
-
         mPatchManager.loadPatch();
     }
 
